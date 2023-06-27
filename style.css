@@ -6,7 +6,7 @@
 .btn {
     color: #07ff8be5;
     font-weight: 900;
-    background: #e7d69f;
+    background: #ffe590;
     border: 3px solid #07ff8be5;
     border-radius: 30px;
     width: 100%;
@@ -21,20 +21,24 @@
     border-radius: 0;
     background-color: #ff00b2;
     color: #ffffff;
+    border: 0;
     
     /*  */
 }
-/* .btn:hover:before{
-    content: "NEON";
-} */
+.btn:before{
+     content: "NEON";
+}
+.btn:hover::before{
+    content: "";
+}
 .btn:hover::after{
     content: "ANGLE BG";
 }
 
 .btn-holder {
     padding: 10px;
-    background: #e7d69f;
-    width: 100px;
+    background: #ffe590;
+    width: 150px;
     height: 90%;
     margin: 200px auto;
 }
