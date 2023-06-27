@@ -1,0 +1,40 @@
+:root {
+    --ocean: #4e5f7b;
+    --dark-green: rgb(22, 160, 133);
+}
+
+.btn {
+    color: #07ff8be5;
+    font-weight: 900;
+    background: #e7d69f;
+    border: 3px solid #07ff8be5;
+    border-radius: 30px;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    /* content: "NEON"; */
+
+}
+
+.btn:hover {
+    border-radius: 0;
+    background-color: #ff00b2;
+    color: #ffffff;
+    
+    /*  */
+}
+/* .btn:hover:before{
+    content: "NEON";
+} */
+.btn:hover::after{
+    content: "ANGLE BG";
+}
+
+.btn-holder {
+    padding: 10px;
+    background: #e7d69f;
+    width: 100px;
+    height: 90%;
+    margin: 200px auto;
+}
